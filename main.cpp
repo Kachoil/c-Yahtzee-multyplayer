@@ -32,7 +32,7 @@ char omstart;
 // slot 11 = small straight | slot 12 = large straight | slot 13 = chance | slot 14 = yahtzee
 // slot 15 = upper score | slot 16 = lower score | slot 17 = grand total | slot 18 = bonus | slot 19 = lock 1 | slot 20 = lock 2 | slot 21 = lock 3
 //slot 22 = lock 4 | slot 23 = lock 5 | slot 24 = lock 6 | slot 25 = lock 7 | slot 26 = lock 8 | slot 27 = lock 9
-// slot 28 = lock 10 | slot 29 = lock 11 | slot 30 = lock 12 | slot 31 = lock 13 | slot 32 = lock 14 | lock 33 = lock 15
+// slot 28 = lock 10 | slot 29 = lock 11 | slot 30 = lock 12 | slot 31 = lock 13 | slot 32 = lock 14 | slot 33 = lock 15
 array<int, 34> ScoreP1 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0};
 array<int, 34> ScoreP2 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0};
 array<int, 34> ScoreP3 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0, 0};
