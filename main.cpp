@@ -255,9 +255,45 @@ void scorecheck ()
         {
             Players[PlayersTurn][10] = Dices[0] * 2 + Dices[2] * 3;
         }
-        else if (Dices[0] == Dices[1] && Dices[1] == Dices[2] && Dices[3] == Dices[4])
+        else if (Dices[0] == Dices[1] && Dices[2] == Dices[3] && Dices[3] == Dices[4])
         {
-           Players[PlayersTurn][10] = Dices[0] * 3 + Dices[2] * 2;
+           Players[PlayersTurn][10] = Dices[0] * 2 + Dices[2] * 3;
+        }
+        else if (Dices[0] == Dices[2] && Dices[1] == Dices[3] && Dices[3] == Dices[4])
+        {
+            Players[PlayersTurn][10] = Dices[0] * 2 + Dices[1] * 3;
+        }
+        else if (Dices[0] == Dices[3] && Dices[1] == Dices[2] && Dices[2] == Dices[4])
+        {
+            Players[PlayersTurn][10] = Dices[0] * 2 + Dices[1] * 3;
+        }
+        else if (Dices[0] == Dices[4] && Dices[1] == Dices[2] && Dices[3] == Dices[2])
+        {
+            Players[PlayersTurn][10] = Dices[0] * 2 + Dices[1] * 3;
+        }
+        else if (Dices[1] == Dices[2] && Dices[0] == Dices[3] && Dices[3] == Dices[4])
+        {
+            Players[PlayersTurn][10] = Dices[1] * 2 + Dices[0] * 3;
+        }
+        else if (Dices[1] == Dices[3] && Dices[0] == Dices[2] && Dices[2] == Dices[4])
+        {
+            Players[PlayersTurn][10] = Dices[1] * 2 + Dices[0] * 3;
+        }
+        else if (Dices[1] == Dices[4] && Dices[0] == Dices[2] && Dices[2] == Dices[3])
+        {
+            Players[PlayersTurn][10] = Dices[1] * 2 + Dices[0] * 3;
+        }
+        else if (Dices[2] == Dices[3] && Dices[0] == Dices[1] && Dices[1] == Dices[4])
+        {
+            Players[PlayersTurn][10] = Dices[2] * 2 + Dices[0] * 3;
+        }
+        else if (Dices[2] == Dices[4] && Dices[0] == Dices[1] && Dices[1] == Dices[3])
+        {
+            Players[PlayersTurn][10] = Dices[2] * 2 + Dices[0] * 3;
+        }
+        else if (Dices[3] == Dices[4] && Dices[0] == Dices[1] && Dices[1] == Dices[2])
+        {
+            Players[PlayersTurn][10] = Dices[3] * 2 + Dices[0] * 2;
         }
         Players[PlayersTurn][29] = 11;
     }
